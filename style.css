@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0;
+    background-image:url('images/backgound.webp');
+    
+}
+h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    border:2px solid yellow;
+    padding: 50px;
+    margin-left: 27%;
+    margin-right: 27%;
+    width: 50%;
+    align-items: center;
+    margin-top: 3%;
+    padding-top: 40px;
+    background-color: black;
+    background-image: url('images/backgroundsec.jpeg.jpeg');
+}
+input[type="submit"]{
+
+    background-color: rgb(229, 211, 16);
+    color: black;
+    width: 90px;
+    font-size: 19px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 20px;
+}
+form {
+
+    margin: 10px auto;
+    border: 1px solid yellow;
+    width: 60%;
+    padding: 14px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:black;
+    background-image: url('images/backgroundsec.jpeg.jpeg');
+}
+input[type="text"] {
+
+    background-color: white;
+    width: 140px;
+    border: 2px solid black;
+    
+}
+input[type="email"]{
+
+    width: 140px;
+    border: 2px solid black;
+    background-color: white;
+    
+}
+input[type="password"]{
+
+    width: 140px;
+    border: 2px solid black;
+    background-color: white;
+}
+label[for="Password"]{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    section {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    input[type="submit"] {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        width: 100%;
+        margin:auto;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .gender-options {
+        flex-direction: column;
+    }
+    main{
+        margin: 5px;
+    }
+}
+
+    
+
+
+

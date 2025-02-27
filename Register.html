@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>     
+        <h2 style="color: white;">Create an Account</h2>
+    <form action="registration.php" method="post">
+        <label for="email" style= "margin-left: 80px; color: white;" > E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password" style= "margin-left: 58px; color: white ;">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="confirm" style="color: white;">Confirm Password:</label>
+        <input type="password" id="confirm" name="confirm" required><br><br>
+        <label for="firstname" style= "margin-left: 51px; color: white;">First Name:</label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+        <label for="lastname" style= "margin-left: 53px; color: white;" >Last Name:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+        </select><br><br>
+        <input type="radio" id="female" name="gender" value="female" checked>
+        <label for="female" style="color:white">Female</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male" style="color: white;">Male</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other" style="color: white;">Other</label><br><br><br>
+        <input type="checkbox" name="terms" id="terms" required>
+        <label for="terms" style="color: white;">I agree with terms and conditions</label><br><br>
+        <input type="checkbox" name="terms" id="terms" required>
+        <label for="terms" style="color: white;">I want to receive the newsletter</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    
+        </section>  
+    </main> 
+    </body>
+</html>
